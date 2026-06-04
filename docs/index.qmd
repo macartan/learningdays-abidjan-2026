@@ -1,0 +1,40 @@
+---
+title: "Abidjan Learning Days — Slides"
+format:
+  html:
+    theme: default
+    css: abidjan-index.css
+    backgroundcolor: "#ffffff"
+    toc: false
+    anchor-sections: false
+    include-in-header:
+      text: |
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+
+::: {.hero}
+![](egap-logo.png){.logo width="150px"}
+:::
+
+# Slides for Abidjan Learning Days
+
+Bilingual teaching slides (English / French) for the [EGAP](https://egap.org/) Learning Days workshop in Abidjan, 2026.
+
+::: {.deck-list}
+<a class="deck-card" href="1_causalinference-slides-en-fr.html">
+  <span class="deck-num">1</span>
+  <span class="deck-body">
+    <span class="deck-title">Causal inference</span>
+    <span class="deck-blurb">Randomized experiments, potential outcomes, and the average treatment effect.</span>
+  </span>
+</a>
+
+<a class="deck-card" href="2_estimation-slides-en-fr.html">
+  <span class="deck-num">2</span>
+  <span class="deck-body">
+    <span class="deck-title">Estimation strategies</span>
+    <span class="deck-blurb">Inquiries, estimands, answer strategies, and design diagnosis.</span>
+  </span>
+</a>
+:::
+

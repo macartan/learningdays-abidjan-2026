@@ -1,0 +1,123 @@
+/* Index page for Abidjan Learning Days slide hub (docs/) */
+
+:root {
+  --egap-blue: #1a5f96;
+  --egap-blue-light: #dceefb;
+  --text: #1a1a1a;
+  --muted: #555;
+  --card-border: #c8d8e8;
+  --page-bg: #ffffff;
+}
+
+html,
+body,
+#quarto-content,
+main.content,
+.quarto-container {
+  background: var(--page-bg) !important;
+}
+
+body {
+  background: var(--page-bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+main.content {
+  max-width: 42rem;
+  margin: 2.5rem auto 4rem;
+  padding: 0 1.25rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 1.75rem;
+  padding: 1.25rem 0 0.5rem;
+}
+
+.hero .logo {
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+h1.title {
+  display: none;
+}
+
+main h1 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--egap-blue);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+main > p {
+  text-align: center;
+  color: var(--muted);
+  font-size: 1.02rem;
+  margin-bottom: 2rem;
+}
+
+.deck-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.deck-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.15rem;
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--egap-blue);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(26, 95, 150, 0.06);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.deck-card:hover {
+  border-left-color: #0d4a78;
+  box-shadow: 0 4px 14px rgba(26, 95, 150, 0.12);
+  text-decoration: none;
+  color: inherit;
+}
+
+.deck-num {
+  flex: 0 0 2rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--egap-blue);
+  line-height: 1.2;
+}
+
+.deck-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.deck-title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.deck-blurb {
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+footer,
+.quarto-title-meta,
+.page-footer {
+  display: none !important;
+}
