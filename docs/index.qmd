@@ -16,9 +16,9 @@ format:
 ![](egap-logo.png){.logo width="150px"}
 :::
 
-# Slides for Abidjan Learning Days
+# Slides for Abidjan Learning Days 2026
 
-Bilingual teaching slides (English / French) for the [EGAP](https://egap.org/) Learning Days workshop in Abidjan, 2026.
+Bilingual teaching slides (En / Fr) for the [EGAP](https://egap.org/) Learning Days in Abidjan, 2026.
 
 ::: {.deck-list}
 <a class="deck-card" href="1_causalinference-slides-en-fr.html">
